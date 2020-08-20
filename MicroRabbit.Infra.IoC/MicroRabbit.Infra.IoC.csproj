@@ -9,11 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MicroRabbit.Account.Application\MicroRabbit.Account.Application.csproj" />
-    <ProjectReference Include="..\MicroRabbit.Account.Domain\MicroRabbit.Account.Domain.csproj" />
-    <ProjectReference Include="..\MicroRabbit.Asset.Application\MicroRabbit.Asset.Application.csproj" />
-    <ProjectReference Include="..\MicroRabbit.Asset.Data\MicroRabbit.Asset.Data.csproj" />
-    <ProjectReference Include="..\MicroRabbit.Asset.Domain\MicroRabbit.Asset.Domain.csproj" />
     <ProjectReference Include="..\MicroRabbit.Discovery.Application\MicroRabbit.Discovery.Application.csproj" />
     <ProjectReference Include="..\MicroRabbit.Discovery.Domain\MicroRabbit.Discovery.Domain.csproj" />
     <ProjectReference Include="..\MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj" />

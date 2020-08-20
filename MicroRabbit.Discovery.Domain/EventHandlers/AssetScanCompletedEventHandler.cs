@@ -32,7 +32,7 @@ namespace MicroRabbit.Discovery.Domain.EventHandlers
             //Logic for Asset scan completed event
             _logger.LogInformation("Asset scan completed for Scan ID {0}", @event.ScanID);
 
-            EC2Instance(@event).Wait();
+            //EC2Instance(@event).Wait();
 
             if (@event.ScanType == "Both")
             {

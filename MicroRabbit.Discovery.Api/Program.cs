@@ -19,7 +19,7 @@ namespace MicroRabbit.Discovery.Api
             Log.Logger = new LoggerConfiguration()
                .MinimumLevel.Override("Microsoft", LogEventLevel.Error)
                .WriteTo.RollingFile("C:\\Temp\\Logs\\Logs-{Date}.txt").CreateLogger();
-            Log.Information("test");
+            Log.Information("BeyondTrust Dragon Scan Result");
             CreateWebHostBuilder(args).Build().Run();
         }
 
